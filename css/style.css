@@ -8,30 +8,32 @@
   padding-right: 15pt;
   padding-top: 15pt;
 }
+
 /* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
 */
+
 .mdl-ripple {
   background: gray;
   opacity: 0.001;
 }
+
 body {
   background-color: whitesmoke;
+  height: 100%;
+  width: 100%;
 }
+
 p {
   color: blue;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 9.5rem;
   padding-top: 10pt;
 }
+
 #divID cite {
   font-style: italic;
   font-weight: bold;
   font-size: large;
   color: red;
   background-color: #ddd;
-}
-html,
-body {
-  height: 100%;
-  width: 100%;
 }
